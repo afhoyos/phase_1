@@ -1,0 +1,15 @@
+Description JSON.parse() and JSON.stringify() are methods used for transformations
+between JSON objects and strings. If obj is a Javascript object, which of the following are
+true? Select one or more.
+
+Answers:
+1. The result JSON.parse(JSON.stringify(obj)) is an object with the same properties and
+their values as obj.
+2. The result of JSON.parse(JSON.stringify(obj)) === obj is always true.
+3. The result of JSON.parse(JSON.stringify(obj)) == obj is always true.
+4. The result of JSON.parse(JSON.stringify(obj)) == obj is true only for some objects.
+5. If obj contains methods, then none of these methods exists in the result of
+JSON.parse(JSON.stringify(obj)).
+
+R// If obj contains methods, then none of these methods exists in the result of
+JSON.parse(JSON.stringify(obj)).

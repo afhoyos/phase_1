@@ -1,0 +1,12 @@
+Description: The localStorage object is used to store the data locally. Which of the
+following are true about localStorage objects? Select one or more.
+
+Answers:
+
+1. The data in localStorage is stored without an expiration date.
+2. localStorage allows for several data types, including numbers and strings.
+3. All data values stored in localStorage are stored as strings.
+4. localStorage is used to store limited data sizes. It is usually restricted to just a few
+megabytes.
+
+R// 1, 3, 4

@@ -1,0 +1,42 @@
+Description: Consider the code snippet below. Which of the following values for the
+Content-Type header is/are correct?
+
+fetch(url, {
+  
+  method: 'post',
+  headers: {
+  "Content-type":"json"
+  },
+  
+  body: 'foo=bar&lorem=ipsum'
+})
+
+
+Answers:
+
+1. Consider the code snippet above. Which of the following values for the
+   Content-Type header is/are correct?
+
+2. application/x-www-form-urlencoded; charset=UTF-8
+
+3. text/html; charset=utf-8
+
+4. application/json; charset=UTF-8
+
+5. Content-Type: multipart/form-data; boundary=something
+
+
+R// application/json; charset=UTF-8
+
+
+
+
+Class	            Default Content-Type
+
+String	          text/plain;charset=UTF-8
+URLSearchParams	  application/x-www-form-urlencoded;charset=UTF-8
+FormData	        multipart/form-data
+Blob	            inherited from the blob.type property
+ArrayBuffer	
+TypedArray	
+DataView	
